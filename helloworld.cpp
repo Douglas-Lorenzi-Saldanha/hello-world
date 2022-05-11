@@ -8,8 +8,8 @@ int main() {
     int num3 = 0
     int num4 = 0
     int result = 0
-    string texto = '';
-    string txtedit = '';
+    String texto = '';
+    String txtedit = '';
     
     return 0;
 }
