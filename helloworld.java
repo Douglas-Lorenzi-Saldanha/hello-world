@@ -16,6 +16,10 @@ public class HelloWorld {
         
         //Recebimento de dados
         Scanner read = new Scanner(System.in);     
+        System.out.printf('Digite o num1: ');
+        num1 = read.nextFloat();
+        System.out.printf('Digite o num2: ');
+        num2 = read.nextFloat();        
      
         //Soma
         result = num1 + num2;
