@@ -1,4 +1,6 @@
- public class HelloWorld {   
+import java.util.Scanner;
+
+public class HelloWorld {   
     public static void main(String[] args) {
         //Mensagem inicial
         System.out.println("Hello World!");
@@ -10,9 +12,10 @@
         int num4 = 0
         int result = 0
         string texto = '';
-        string txtedit = '';       
-     
+        string txtedit = '';      
+        
         //Recebimento de dados
+        Scanner read = new Scanner(System.in);     
      
         //Soma
         result = num1 + num2;
