@@ -13,13 +13,25 @@
         string txtedit = '';       
      
         //Recebimento de dados
+     
         //Soma
+        result = num1 + num2;
+     
         //Mensagem com o resultado da soma.
+     
         //Subtração
+        result = num1 - num2;
+     
         //Mensagem com o resultado da subtração.
+     
         //Multiplicação
+        result = num1 * num2;
+     
         //Mensagem com o resultado da multiplicação.
+     
         //Divisão
+        result = num1 / num2;
+     
         //Mensagem com o resultado da divisão.
     }
  }   
