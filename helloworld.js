@@ -44,3 +44,17 @@ txtedit = prompt('Digite o seu nome: ')
 //Mensagem com o resultado do texto.
 console.log(texto)
 console.log(txtedit)
+
+//Recebimento de dados
+num3 = prompt('Digite o num3: ')
+num4 = prompt('Digite o num4: ')
+let num5 = 0
+
+//Teste de If e Else para ver qual é o número maior
+if(num3>num4){
+  num5 = num3
+}
+else{
+  num5 = num4
+}
+
