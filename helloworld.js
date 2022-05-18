@@ -42,4 +42,5 @@ console.log("Divisão dos dois números: " + result)
 txtedit = prompt('Digite o seu nome: ')
 
 //Mensagem com o resultado do texto.
+console.log(texto)
 console.log(txtedit)
