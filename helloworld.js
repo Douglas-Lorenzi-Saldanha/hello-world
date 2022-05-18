@@ -37,3 +37,9 @@ result = parseInt(num1) / parseInt(num2)
 
 //Mensagem com o resultado da divisão.
 console.log("Divisão dos dois números: " + result)
+
+//Inserir texto no programa
+txtedit = prompt('Digite o seu nome: ')
+
+//Mensagem com o resultado do texto.
+console.log(txtedit)
