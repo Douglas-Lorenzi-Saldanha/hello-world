@@ -47,6 +47,15 @@
       //Recebimento de dados
       $num3 = readline('Digite o num3: ');
       $num4 = readline('Digite o num4: ');  
+      $num5 = 0;
+    
+      //Teste de If e Else para ver qual é o número maior
+      if($num3>$num4){
+        $num5 = $num3;
+      }
+      else{
+        $num5 = $num4;
+      }  
     
     ?>
   </body>
