@@ -7,11 +7,11 @@ public class Main {
         System.out.println("Hello World!");
      
         //Variaveis
-        int num1 = 0;
-        int num2 = 0;
+        float num1 = 0;
+        float num2 = 0;
         int num3 = 0;
         int num4 = 0;
-        int result = 0;
+        float result = 0;
         String texto = "";
         String txtedit = "";      
         
@@ -51,6 +51,15 @@ public class Main {
         num3 = read.nextInt();
         System.out.printf("Digite o num4: ");
         num4 = read.nextInt();          
+        float num5 = 0;
+        
+        //Teste de If e Else para ver qual é o número maior
+        if(num3>num4){
+            num5 = num3
+        }
+        else{
+            num5 = num4
+        }         
 
         read.close();
     }
