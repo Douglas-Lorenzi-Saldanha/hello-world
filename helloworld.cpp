@@ -46,5 +46,11 @@ int main() {
     //Mensagem com o resultado da divisão.
     std::cout << "Divisão dos dois números: " << result << endl;  
     
+    //Recebimento de dados
+    std::cout << "Digite o num3: ";
+    cin >> num3;
+    std::cout << "Digite o num4: ";
+    cin >> num4;  
+    
     return 0;
 }
