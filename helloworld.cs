@@ -43,6 +43,12 @@ class Program {
 
     //Mensagem com o resultado da divisão.
     Console.Write("Divisão dos dois números: " + result + "\n");
+    
+    //Recebimento de dados
+    Console.Write("Digite o num3: ");
+    num3 = double.Parse(Console.ReadLine());
+    Console.Write("Digite o num4: ");
+    num4 = double.Parse(Console.ReadLine());    
   
   }
 }
