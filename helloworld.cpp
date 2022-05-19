@@ -55,10 +55,10 @@ int main() {
     
     //Teste de If e Else para ver qual é o número maior
     if(num3>num4){
-      num5 = num3
+      num5 = num3;
     }
     else{
-     num5 = num4
+     num5 = num4;
     }    
     
     return 0;
