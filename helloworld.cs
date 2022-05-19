@@ -49,6 +49,14 @@ class Program {
     num3 = double.Parse(Console.ReadLine());
     Console.Write("Digite o num4: ");
     num4 = double.Parse(Console.ReadLine());    
+    
+    //Teste de If e Else para ver qual é o número maior
+    if(num3>num4){
+      num5 = num3
+    }
+    else{
+     num5 = num4
+    }     
   
   }
 }
