@@ -45,6 +45,12 @@ public class Main {
      
         //Mensagem com o resultado da divisão.
         System.out.printf("Divisão dos dois números: " + result + "\n");   
+        
+        //Recebimento de dados
+        System.out.printf("Digite o num3: ");
+        num3 = read.nextInt();
+        System.out.printf("Digite o num4: ");
+        num4 = read.nextInt();          
 
         read.close();
     }
