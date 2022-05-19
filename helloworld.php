@@ -43,6 +43,11 @@
 
       //Mensagem com o resultado da divisão.
       echo "Divisão dos dois números: " . $result . "<br>";
+    
+      //Recebimento de dados
+      $num3 = readline('Digite o num3: ');
+      $num4 = readline('Digite o num4: ');  
+    
     ?>
   </body>
 </html>
