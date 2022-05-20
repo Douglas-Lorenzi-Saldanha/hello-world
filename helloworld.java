@@ -13,7 +13,9 @@ public class Main {
         int num4 = 0;
         float result = 0;
         String texto = "";
-        String txtedit = "";      
+        String txtedit = "";   
+        float num5 = 0;       
+        float num6 = 0;              
         
         //Recebimento de dados
         Scanner read = new Scanner(System.in);     
@@ -51,15 +53,20 @@ public class Main {
         num3 = read.nextInt();
         System.out.printf("Digite o num4: ");
         num4 = read.nextInt();          
-        float num5 = 0;
         
         //Teste de If e Else para ver qual é o número maior
         if(num3>num4){
-            num5 = num3
+            num5 = num3;
+            num6 = num4;    
         }
         else{
-            num5 = num4
+            num5 = num4;
+            num6 = num3;
         }         
+        
+        while(num6<num5){
+            num6 = num6++;
+        }
 
         read.close();
     }
