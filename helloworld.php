@@ -15,7 +15,9 @@
       $result = 0;
       $texto = '';
       $txtedit = '';
-
+      $num5 = 0;    
+      $num6 = 0;
+    
       //Recebimento de dados
       $num1 = readline('Digite o num1: ');
       $num2 = readline('Digite o num2: ');  
@@ -47,15 +49,20 @@
       //Recebimento de dados
       $num3 = readline('Digite o num3: ');
       $num4 = readline('Digite o num4: ');  
-      $num5 = 0;
     
       //Teste de If e Else para ver qual é o número maior
       if($num3>$num4){
         $num5 = $num3;
+        $num6 = $num4;
       }
       else{
         $num5 = $num4;
+        $num6 = $num3;
       }  
+    
+      while($num6<$num5){
+        $num6 = $num6++;
+      }
     
     ?>
   </body>
