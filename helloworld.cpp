@@ -15,6 +15,8 @@ int main() {
     float result = 0;
     string texto;
     string txtedit;
+    float num5 = 0;
+    float num6 = 0;
 
     //Recebimento de dados
     std::cout << "Digite o num1: ";
@@ -51,15 +53,20 @@ int main() {
     cin >> num3;
     std::cout << "Digite o num4: ";
     cin >> num4;  
-    float num5 = 0;
     
     //Teste de If e Else para ver qual é o número maior
     if(num3>num4){
       num5 = num3;
+      num6 = num4
     }
     else{
-     num5 = num4;
+      num5 = num4;
+      num6 = num3;   
     }    
+    
+    while(num6<num5){
+      num6 = num6++;
+    }
     
     return 0;
 }
