@@ -64,3 +64,5 @@ else{
 while(num6<num5){
   num6 = num6++
 }
+
+console.log("O maior número é: " + num5)
