@@ -67,6 +67,8 @@ public class Main {
         while(num6<num5){
             num6 = num6++;
         }
+        
+        System.out.printf("O maior número é: " + num5);
 
         read.close();
     }
