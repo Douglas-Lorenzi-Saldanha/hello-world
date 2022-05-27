@@ -65,6 +65,8 @@ class Program {
     while(num6<num5){
       num6 = num6++;
     }
+    
+    Console.Write("O maior número é: " + num5);
   
   }
 }
