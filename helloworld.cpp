@@ -68,5 +68,7 @@ int main() {
       num6 = num6++;
     }
     
+    std::cout << "O maior número é: " << num5 << endl;    
+    
     return 0;
 }
