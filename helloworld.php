@@ -63,6 +63,8 @@
       while($num6<$num5){
         $num6 = $num6++;
       }
+      
+      echo "O maior número é: " . $num5;
     
     ?>
   </body>
