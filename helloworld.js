@@ -61,6 +61,7 @@ else{
   num6 = num3
 }
 
+//Demonstração da funcionalidade do While
 while(num6<num5){
   num6 = num6++
 }
